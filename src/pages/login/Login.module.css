@@ -1,0 +1,237 @@
+/* Estilo principal del contenedor */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 100%;
+    min-height: calc(100vh - 20vh);
+    /* Resta el espacio del Header y Footer */
+    background-color: var(--primary-color);
+    color: var(--quinary-color);
+    font-size: 1.5rem;
+}
+
+/* Contenedor del filtro */
+.filterContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Input y botones dentro del filtro */
+.filterInput {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid var(--quinary-color);
+    border-radius: 5px;
+    margin-right: 1rem;
+    background-color: var(--primary-color);
+    color: var(--quinary-color);
+}
+
+.filterButton {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--tertiary-color);
+    color: var(--quinary-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+    background-color: var(--cuaternary-color);
+}
+
+/* Contenedor de los comics */
+.comicsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Estilo para cada comic */
+.comicCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comicCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagen del comic */
+.comicImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Título del comic */
+.comicTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--quinary-color);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Descripción del comic */
+.comicDescription {
+    font-size: 0.9rem;
+    color: var(--quinary-color);
+    text-align: center;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 1280px) {
+    .filterContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filterInput {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .comicsContainer {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .comicCard {
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .filterContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .comicsContainer {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .comicCard {
+        padding: 0.6rem;
+    }
+
+    .comicTitle {
+        font-size: 0.9rem;
+    }
+
+    .comicDescription {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .filterContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .comicsContainer {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .comicCard {
+        padding: 0.5rem;
+    }
+
+    .comicTitle {
+        font-size: 0.8rem;
+    }
+
+    .comicDescription {
+        font-size: 0.7rem;
+    }
+}
+
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 100%;
+    min-height: calc(100vh - 20vh);
+    /* Resta el espacio del Header y Footer */
+    background-color: var(--primary-color);
+    color: var(--quinary-color);
+}
+
+.loginPageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.loginForm {
+    background: rgb(0, 0, 0);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.loginForm h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.loginForm label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.loginForm input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.loginForm button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loginForm button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,76 @@
+/* Contenedor principal de la imagen */
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+/* Estilo para la imagen */
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Variantes de color para títulos */
+.redTitle {
+    color: var(--tertiary-color);
+    /* Rojo */
+}
+
+.blueTitle {
+    color: var(--primary-color);
+    /* Azul */
+}
+
+.greenTitle {
+    color: var(--cuaternary-color);
+    /* Verde */
+}
+
+.yellowTitle {
+    color: var(--quinary-color);
+    /* Amarillo */
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 1280px) {
+    .imageContainer {
+        padding: 0.8rem;
+    }
+
+    .image {
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .imageContainer {
+        padding: 0.5rem;
+    }
+
+    .image {
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imageContainer {
+        padding: 0.3rem;
+    }
+
+    .image {
+        border-radius: 4px;
+    }
+}

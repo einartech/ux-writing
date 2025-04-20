@@ -1,0 +1,124 @@
+/* Contenedor principal del header */
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    color: var(--quinary-color);
+}
+
+/* Logo */
+.logo {
+    font-size: var(--h1-size);
+    color: var(--quinary-color);
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Elementos del navbar */
+.navItem {
+    font-size: 1rem;
+    color: var(--quinary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navItem:hover {
+    color: var(--cuaternary-color);
+}
+
+/* Botones dentro del header */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logIn {
+    color: var(--quinary-color);
+    background-color: var(--primary-color);
+}
+
+.sell {
+    color: var(--primary-color);
+    background-color: var(--cuaternary-color);
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 1280px) {
+    .headerContainer {
+        padding: 1rem;
+    }
+
+    .logo {
+        font-size: var(--h2-size);
+    }
+
+    .navbar {
+        gap: 1rem;
+    }
+
+    .button {
+        height: 2.5rem;
+        width: 7rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.8rem;
+    }
+
+    .logo {
+        font-size: var(--h3-size);
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .button {
+        height: 2rem;
+        width: 6rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .headerContainer {
+        padding: 0.5rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        gap: 0.5rem;
+    }
+
+    .button {
+        height: 1.8rem;
+        width: 5rem;
+        font-size: 0.7rem;
+    }
+}

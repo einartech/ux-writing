@@ -1,0 +1,123 @@
+/* Contenedor principal del footer */
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    color: var(--quinary-color);
+}
+
+/* Botones dentro del footer */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logIn {
+    color: var(--quinary-color);
+    background-color: var(--primary-color);
+}
+
+.sell {
+    color: var(--primary-color);
+    background-color: var(--cuaternary-color);
+}
+
+/* Contenedor de iconos */
+.iconContainer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* Espaciado entre los iconos */
+}
+
+/* Estilos para los iconos */
+.icon {
+    font-size: 2rem;
+    color: var(--quinary-color);
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: var(--cuaternary-color);
+    /* Cambia el color al pasar el mouse */
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 1280px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .iconContainer {
+        margin-top: 0.5rem;
+        gap: 0.8rem;
+    }
+
+    .button {
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 0.9rem;
+    }
+
+    .icon {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footerContainer {
+        padding: 0.8rem;
+    }
+
+    .iconContainer {
+        gap: 0.6rem;
+    }
+
+    .button {
+        height: 2rem;
+        width: 2rem;
+        font-size: 0.8rem;
+    }
+
+    .icon {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footerContainer {
+        padding: 0.5rem;
+    }
+
+    .iconContainer {
+        flex-wrap: wrap;
+        /* Permite que los iconos se ajusten en varias filas */
+        gap: 0.5rem;
+    }
+
+    .button {
+        height: 1.8rem;
+        width: 1.8rem;
+        font-size: 0.7rem;
+    }
+
+    .icon {
+        font-size: 1.2rem;
+    }
+}

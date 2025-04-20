@@ -1,0 +1,73 @@
+/* Contenedor principal del icono */
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* Espaciado entre iconos si hay varios */
+    padding: 0.5rem;
+}
+
+/* Estilo base para los iconos */
+.icon {
+    font-size: 2rem;
+    color: var(--quinary-color);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+    color: var(--cuaternary-color);
+    /* Cambia el color al pasar el mouse */
+    transform: scale(1.1);
+    /* Aumenta ligeramente el tamaño */
+}
+
+/* Variantes de color para los iconos */
+.iconPrimary {
+    color: var(--primary-color);
+}
+
+.iconSecondary {
+    color: var(--secondary-color);
+}
+
+.iconTertiary {
+    color: var(--tertiary-color);
+}
+
+.iconCuaternary {
+    color: var(--cuaternary-color);
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 1280px) {
+    .icon {
+        font-size: 1.8rem;
+    }
+
+    .iconContainer {
+        gap: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon {
+        font-size: 1.5rem;
+    }
+
+    .iconContainer {
+        gap: 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon {
+        font-size: 1.2rem;
+    }
+
+    .iconContainer {
+        flex-wrap: wrap;
+        /* Permite que los iconos se ajusten en varias filas */
+        gap: 0.5rem;
+    }
+}

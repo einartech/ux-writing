@@ -1,0 +1,76 @@
+/* Variantes de color para títulos */
+.redTitle {
+    color: var(--tertiary-color);
+    /* Rojo */
+}
+
+.blueTitle {
+    color: var(--primary-color);
+    /* Azul */
+}
+
+.greenTitle {
+    color: var(--cuaternary-color);
+    /* Verde */
+}
+
+.yellowTitle {
+    color: var(--quinary-color);
+    /* Amarillo */
+}
+
+/* Contenedor principal del logo */
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 40vw;
+}
+
+/* Estilo para la imagen del logo */
+img {
+    height: 8vh;
+    width: auto;
+    max-width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 1280px) {
+    .logoContainer {
+        height: 8vh;
+        width: 50vw;
+    }
+
+    img {
+        height: 6vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .logoContainer {
+        height: 6vh;
+        width: 60vw;
+    }
+
+    img {
+        height: 5vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .logoContainer {
+        height: 5vh;
+        width: 80vw;
+    }
+
+    img {
+        height: 4vh;
+    }
+}
