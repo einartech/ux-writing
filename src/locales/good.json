@@ -1,32 +1,32 @@
 {
-    "nav": {
-      "home": "Home",
-      "about": "About",
-      "comics": "Comics"
-    },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "comics": "Cómics"
+  },
 
-    "button": {
-      "login": "Log in",
-      "sell": "Sell",
-      "toggle": "UX Writing"
-    },
+  "button": {
+    "login": "Iniciar sesión",
+    "sell": "Vender",
+    "toggle": "UX Writing"
+  },
 
-    "login": {
-      "title": "Log in to your account",
-      "emailLabel": "Email address",
-      "emailPlaceholder": "Enter your email address",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "button": "Log in"
-    },
+  "login": {
+    "title": "Inicia sesión en tu cuenta",
+    "emailLabel": "Dirección de correo electrónico",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Introduce tu contraseña",
+    "button": "Iniciar sesión"
+  },
 
-    "registration": {
-      "title": "Create your account",
-      "nameLabel": "Full name",
-      "namePlaceholder": "Enter your full name",
-      "emailLabel": "Email address",
-      "emailPlaceholder": "Enter your email address",
-      "agreeText": "I agree to receive emails about new features and updates.",
-      "button": "Sign up"
-    }
+  "registration": {
+    "title": "Crea tu cuenta",
+    "nameLabel": "Nombre completo",
+    "namePlaceholder": "Introduce tu nombre completo",
+    "emailLabel": "Dirección de correo electrónico",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "agreeText": "Acepto recibir correos sobre nuevas funciones y actualizaciones.",
+    "button": "Registrarse"
   }
+}
