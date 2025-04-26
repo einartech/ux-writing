@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
-import UxWriting from "../../pages/ux-writing/uxWriting";
+import UxWriting from "../../pages/ux-writing/UxWriting";
 import Login from "../../pages/login/Login";
 import Registration from "../../pages/registration/Registration";
 import ServiceDetails from "../../pages/service-details/ServiceDetails";

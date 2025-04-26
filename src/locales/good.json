@@ -1,0 +1,12 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "comics": "Comics"
+    },
+    "button": {
+      "login": "Log in",
+      "sell": "Sell",
+      "toggle": "UX Writing"
+    }
+  }

@@ -1,0 +1,12 @@
+{
+    "nav": {
+      "home": "Start",
+      "about": "Info",
+      "comics": "Things"
+    },
+    "button": {
+      "login": "Access",
+      "sell": "Post",
+      "toggle": "Bien/mal"
+    }
+  }
