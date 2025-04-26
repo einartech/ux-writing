@@ -4,7 +4,7 @@
       "about": "About",
       "comics": "Comics"
     },
-    
+
     "button": {
       "login": "Log in",
       "sell": "Sell",
@@ -18,5 +18,15 @@
       "passwordLabel": "Password",
       "passwordPlaceholder": "Enter your password",
       "button": "Log in"
+    },
+
+    "registration": {
+      "title": "Create your account",
+      "nameLabel": "Full name",
+      "namePlaceholder": "Enter your full name",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "Enter your email address",
+      "agreeText": "I agree to receive emails about new features and updates.",
+      "button": "Sign up"
     }
   }

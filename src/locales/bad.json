@@ -10,13 +10,23 @@
       "sell": "Post",
       "toggle": "Bien/mal"
     },
-    
+
     "login": {
       "title": "Enter credentials",
       "emailLabel": "Email",
-      "emailPlaceholder": "Email",
+      "emailPlaceholder": "Text",
       "passwordLabel": "Pass",
-      "passwordPlaceholder": "Pass",
-      "button": "Submit"
+      "passwordPlaceholder": "Text",
+      "button": "Ok"
+    },
+
+    "registration": {
+      "title": "Register",
+      "nameLabel": "Name",
+      "namePlaceholder": "Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Email",
+      "agreeText": "Agree",
+      "button": "Ok"
     }
   }
