@@ -11,7 +11,7 @@ export default function UxWriting() {
         <h2>uxWriting</h2>
 
         <p>
-        Lorem ipsum ....
+        Un texto para presentar UX Writing
         </p>
 
         <h6 className={styles.blueTitle}>uxWriting</h6>
