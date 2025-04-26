@@ -4,9 +4,19 @@
       "about": "Info",
       "comics": "Things"
     },
+
     "button": {
       "login": "Access",
       "sell": "Post",
       "toggle": "Bien/mal"
+    },
+    
+    "login": {
+      "title": "Enter credentials",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Email",
+      "passwordLabel": "Pass",
+      "passwordPlaceholder": "Pass",
+      "button": "Submit"
     }
   }

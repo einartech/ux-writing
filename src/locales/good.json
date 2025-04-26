@@ -4,9 +4,19 @@
       "about": "About",
       "comics": "Comics"
     },
+    
     "button": {
       "login": "Log in",
       "sell": "Sell",
       "toggle": "UX Writing"
+    },
+
+    "login": {
+      "title": "Log in to your account",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "Enter your email address",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "button": "Log in"
     }
   }
