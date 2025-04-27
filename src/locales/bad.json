@@ -23,9 +23,10 @@
 
   "login": {
     "title": "Entrar",
+    "noAccount": "¿No tienes cuenta?",
     "emailLabel": "Email",
     "emailPlaceholder": "Texto",
-    "passwordLabel": "Pass",
+    "passwordLabel": "Password",
     "passwordPlaceholder": "Texto",
     "button": "Ok"
   },

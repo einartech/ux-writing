@@ -2,27 +2,28 @@
   "home": {
     "heroTitle": "Encuentra tu próxima historia favorita",
     "heroSubtitle": "Explora cómics increíbles creados por artistas de todo el mundo.",
-    "ctaButton": "Descubrir ahora",
-    "goodAlt": "Cómics vintages en una tienda",
+    "ctaButton": "Descubre nuestra colección de cómics",
+    "goodAlt": "Cómics vintage expuestos en una tienda",
     "badAlt": "Imagen aleatoria",
-    "ctaError": "Lo sentimos, esta función aún no está disponible. Puedes navegar a través de los botones arriba."
+    "ctaError": "Lo sentimos, esta función aún no está disponible. Puedes navegar a través del menu de navegación."
   },
 
   "nav": {
     "home": "Inicio",
-    "about": "Acerca de",
-    "comics": "Cómics"
+    "about": "Sobre nosotres",
+    "comics": "Nuestros cómics"
   },
 
   "button": {
     "login": "Iniciar sesión",
     "register": "Registrarse",
-    "sell": "Vender",
+    "sell": "Vender tus cómics",
     "toggle": "UX Writing"
   },
 
   "login": {
     "title": "Inicia sesión en tu cuenta",
+    "noAccount": "¿No tienes cuenta con nosotres? Registrarte aquí",
     "emailLabel": "Dirección de correo electrónico",
     "emailPlaceholder": "Introduce tu correo electrónico",
     "passwordLabel": "Contraseña",
@@ -36,7 +37,7 @@
     "namePlaceholder": "Introduce tu nombre completo",
     "emailLabel": "Dirección de correo electrónico",
     "emailPlaceholder": "Introduce tu correo electrónico",
-    "agreeText": "Acepto recibir correos sobre nuevas funciones y actualizaciones.",
-    "button": "Registrarse"
+    "agreeText": "Al marcar la casilla, acepto recibir correos electrónicos sobre nuevas funciones y actualizaciones.",
+    "button": "Crear mi cuenta"
   }
 }

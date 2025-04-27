@@ -13,7 +13,7 @@ export default function Login() {
       <main className={styles.loginPageContainer}>
         <form className={styles.loginForm}>
           <h1>{t("login.title")}</h1>
-
+          <button type="submit">{t("login.noAccount")}</button>
           <label htmlFor="email">{t("login.emailLabel")}</label>
           <input 
             type="email" 

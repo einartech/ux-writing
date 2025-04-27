@@ -43,7 +43,7 @@ export default function Header() {
         onClick={toggleUxMode}
         text={t("button.toggle")}
       >
-        Toggle entre {uxMode === 'good' ? 'Bad' : 'Good'} UX Writing
+        {uxMode === 'good' ? 'Bad' : 'Good'} UX Writing
       </Button>
     </header>
   );
