@@ -3,8 +3,8 @@
     "heroTitle": "Cómics y cosas",
     "heroSubtitle": "Muchas imágenes para ver.",
     "ctaButton": "Haz clic",
-    "goodAlt": "Chica leyendo",
-    "badAlt": "Chica-libro",
+    "goodAlt": "Cómics en una tienda",
+    "badAlt": "Cómic",
     "ctaError": "Intenta otra vez. Error."
   },
 
@@ -15,7 +15,8 @@
   },
 
   "button": {
-    "login": "Entrar",
+    "login": "Cuenta",
+    "register": "Entrar",
     "sell": "Venta",
     "toggle": "UX"
   },

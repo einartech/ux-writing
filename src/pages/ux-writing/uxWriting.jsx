@@ -5,7 +5,7 @@ import styles from "./UxWriting.module.css";
 import Header from "../../components/header/Header";
 import Button from "../../components/button/Button"; 
 import Footer from "../../components/footer/Footer";
-import laptopImage from "../../assets/images/laptop-coffee-typing.jpg";
+import comics from "../../assets/images/comic-books.jpg";
 
 export default function UxWriting() {
   const { t, i18n } = useTranslation();
@@ -26,10 +26,11 @@ export default function UxWriting() {
 
           <div className={styles.imageContainer}>
             <img 
-              src={ laptopImage } 
+              src={ comics } 
               alt={uxMode === "good" ? t("home.goodAlt") : t("home.badAlt")}
               className={styles.heroImage}
             />
+              {/* Este butón no nos lleva a ningún lado - A PROPÓSITO! */}
               <Button 
               className={styles.ctaButton} 
               text={t("home.ctaButton")} 

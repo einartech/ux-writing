@@ -3,9 +3,9 @@
     "heroTitle": "Encuentra tu próxima historia favorita",
     "heroSubtitle": "Explora cómics increíbles creados por artistas de todo el mundo.",
     "ctaButton": "Descubrir ahora",
-    "goodAlt": "Chica adolescente leyendo un cómic clásico en una sala iluminada por el sol",
+    "goodAlt": "Cómics vintages en una tienda",
     "badAlt": "Imagen aleatoria",
-    "ctaError": "Lo sentimos, esta función aún no está disponible. Por favor, vuelve pronto."
+    "ctaError": "Lo sentimos, esta función aún no está disponible. Puedes navegar a través de los botones arriba."
   },
 
   "nav": {
@@ -16,6 +16,7 @@
 
   "button": {
     "login": "Iniciar sesión",
+    "register": "Registrarse",
     "sell": "Vender",
     "toggle": "UX Writing"
   },

@@ -27,6 +27,10 @@ export default function Header() {
         <NavItem href="/home" text={t("nav.comics")} />
       </Navbar>
       <Button 
+        className={clsx(styles.button, styles.register)} 
+        text={t("button.register")}
+      />
+      <Button 
         className={clsx(styles.button, styles.logIn)} 
         text={t("button.login")}
       />
