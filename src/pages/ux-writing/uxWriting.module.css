@@ -1,4 +1,4 @@
-.container {
+.homePageContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,7 +13,7 @@
     padding-top: 20px;
 }
 
-.container p {
+.homePageContainer p {
     text-align: left;
     width: 100%;
     margin-top: 10px;

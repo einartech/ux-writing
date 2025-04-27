@@ -1,4 +1,13 @@
 {
+  "home": {
+    "heroTitle": "Cómics y cosas",
+    "heroSubtitle": "Muchas imágenes para ver.",
+    "ctaButton": "Haz clic",
+    "goodAlt": "Chica leyendo",
+    "badAlt": "Chica-libro",
+    "ctaError": "Intenta otra vez. Error."
+  },
+
   "nav": {
     "home": "Inicio",
     "about": "Acerca de",

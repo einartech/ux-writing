@@ -2,9 +2,10 @@
 //   return <button className={className}>{text}</button>;
 // }
 
-export default function Button({ className, text, children, ...props }) {
+export default function Button({ className, text, children, onClick, ...props }) {
   return (
-    <button className={className} {...props}>
+    <button className={className} onClick={onClick}
+      {...props}>
       {children || text}
     </button>
   );
