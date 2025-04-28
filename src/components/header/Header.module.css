@@ -43,18 +43,29 @@
     height: 3rem;
     width: 8rem;
     font-size: 1rem;
+    margin: 3px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.logIn {
+.register {
     color: var(--quinary-color);
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
+}
+
+.logIn {
+    color: var(--primary-color);
+    background-color: var(--cuaternary-color);
 }
 
 .sell {
+    color: var(--quinary-color);
+    background-color: var(--tertiary-color);
+}
+
+.toggle {
     color: var(--primary-color);
     background-color: var(--cuaternary-color);
 }

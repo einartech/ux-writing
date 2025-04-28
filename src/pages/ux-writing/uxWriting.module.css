@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     background-color: #ffffff;
     color: black;
@@ -13,39 +13,43 @@
     padding-top: 20px;
 }
 
-.homePageContainer p {
-    text-align: left;
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    margin-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
-.container ul {
-    text-align: left;
-    width: 100%;
-    margin-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.container h2 {
+.heroTitle {
     text-align: center;
-    width: 100%;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.container h3 {
-    text-align: left;
-    width: 100%;
-    margin-top: 40px;
-    padding-left: 140px;
+.heroSubtitle {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.container h6 {
-    text-align: left;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    padding-left: 140px;
+.imageAndButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroImage {
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.ctaButton {
+    margin: 10px 0;
+}
+
+.errorMessage {
+    margin-top: 15px;
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
 }

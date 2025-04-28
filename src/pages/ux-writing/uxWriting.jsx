@@ -22,9 +22,8 @@ export default function UxWriting() {
       <main className={styles.homePageContainer}>
         <section className={styles.heroSection}>
           <h1 className={styles.heroTitle}>{t("home.heroTitle")}</h1>
-          <p className={styles.heroSubtitle}>{t("home.heroSubtitle")}</p>
-
-          <div className={styles.imageContainer}>
+          <h3 className={styles.heroSubtitle}>{t("home.heroSubtitle")}</h3>
+          <div className={styles.imageAndButtonContainer}>
             <img 
               src={ comics } 
               alt={uxMode === "good" ? t("home.goodAlt") : t("home.badAlt")}
