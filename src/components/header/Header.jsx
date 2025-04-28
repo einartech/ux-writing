@@ -6,16 +6,26 @@ import Button from "../button/Button";
 import clsx from "clsx";
 import { useState} from "react";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Header() {
   const { t, i18n } = useTranslation();
   const [uxMode, setUxMode] = useState('good');
+  const navigate = useNavigate();
 
   const toggleUxMode = () => {
     const newMode = uxMode === 'good' ? 'bad' : 'good';
     setUxMode(newMode);
     i18n.changeLanguage(newMode);
+  };
+
+  const handleRegisterClick = () => {
+    navigate("/registration");
+  };
+
+  const handleLoginClick = () => {
+    navigate("/login");
   };
 
   return (
@@ -29,10 +39,12 @@ export default function Header() {
       <Button 
         className={clsx(styles.button, styles.register)} 
         text={t("button.register")}
+        onClick={handleRegisterClick}
       />
       <Button 
         className={clsx(styles.button, styles.logIn)} 
         text={t("button.login")}
+        onClick={handleLoginClick}
       />
       <Button 
         className={clsx(styles.button, styles.sell)} 

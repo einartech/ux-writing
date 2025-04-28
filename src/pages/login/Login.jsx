@@ -3,9 +3,16 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import styles from "./Login.module.css";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+const handleNoAccountClick = (e) => {
+  e.preventDefault(); 
+  navigate("/registration");
+  };
 
   return (
     <>
@@ -13,7 +20,10 @@ export default function Login() {
       <main className={styles.loginPageContainer}>
         <form className={styles.loginForm}>
           <h1>{t("login.title")}</h1>
-          <button type="submit">{t("login.noAccount")}</button>
+          <button type="button"
+            onClick={handleNoAccountClick}>
+            {t("login.noAccount")}
+          </button>
           <label htmlFor="email">{t("login.emailLabel")}</label>
           <input 
             type="email" 
